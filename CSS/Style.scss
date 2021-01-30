@@ -128,7 +128,7 @@ form .form-group {
     color: white;
     opacity: 1; /* Firefox */
 }
-form .form-group .form-input {
+form {.form-group .form-input {
     color: black;
     padding: 0.5rem 1rem;
     background: transparent;
@@ -137,7 +137,6 @@ form .form-group .form-input {
     font-size: 1rem;
     overflow: hidden;
 }
-form {
     input:focus {
         outline: none;
     }
@@ -160,26 +159,20 @@ form {
     padding: 0 1.4rem;
     margin-top: 13px;
 }
-
-.input-icons i {
-    position: absolute;
-    right: 5px;
-    padding: 5px;
-}
-
 .input-icons {
     width: 100%;
     margin-bottom: 10px;
+    i {
+        position: absolute;
+        right: 5px;
+        padding: 5px;
+    }
 }
 
 .icon {
     padding: 10px;
     min-width: 40px;
 }
-.xx input {
-    display: block;
-}
-
 @media screen and (max-width: 1185px) {
     div .input-icon {
         display: none;

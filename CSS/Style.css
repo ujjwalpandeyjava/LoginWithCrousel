@@ -203,24 +203,20 @@ form .btn-login {
   margin-top: 13px;
 }
 
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
 .input-icons i {
   position: absolute;
   right: 5px;
   padding: 5px;
 }
 
-.input-icons {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
 .icon {
   padding: 10px;
   min-width: 40px;
-}
-
-.xx input {
-  display: block;
 }
 
 @media screen and (max-width: 1185px) {
